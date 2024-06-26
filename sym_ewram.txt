@@ -1,5 +1,5 @@
 . = 0x00000000; gSaveDataBuffer = .;
-. = 0x0000AFC0; gUnknown_0200AFC0 = .;
-. = 0x0000B1C0; gUnknown_0200B1C0 = .;
+. = 0x0000AFC0; eGeneralScratchpadBuffer = .;
 . = 0x00011FC0; gScriptHeap = .;
 . = 0x0002CFC0; gBGDecompBuffer = .;
+. = 0x00031FC0; eUnknown_02031FC0 = .;

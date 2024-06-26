@@ -377,7 +377,7 @@ const struct TalkData gTalkData_3_2[18] = {
 	{
 		.roomId = 0x6,
 		.personId = PERSON_ANIM_MAYA,
-		.unk2 = 0xFF,
+		.filler2 = 0xFF,
 		.enableFlag = 0x1,
 		.iconId = { 0x48, 0x49, 0xFF, 0xFF },
 		.talkFlagId = { 0xA5, 0xA6, 0xFF, 0xFF },
@@ -386,7 +386,7 @@ const struct TalkData gTalkData_3_2[18] = {
 	{
 		.roomId = 0x2,
 		.personId = PERSON_ANIM_MAYA,
-		.unk2 = 0xFF,
+		.filler2 = 0xFF,
 		.enableFlag = 0x1,
 		.iconId = { 0x61, 0x62, 0xFF, 0xFF },
 		.talkFlagId = { 0xA3, 0xA4, 0xFF, 0xFF },
@@ -395,7 +395,7 @@ const struct TalkData gTalkData_3_2[18] = {
 	{
 		.roomId = 0x2,
 		.personId = PERSON_ANIM_MAYA,
-		.unk2 = 0xFF,
+		.filler2 = 0xFF,
 		.enableFlag = 0x0,
 		.iconId = { 0x48, 0x49, 0xFF, 0xFF },
 		.talkFlagId = { 0xA7, 0xA8, 0xFF, 0xFF },
@@ -404,7 +404,7 @@ const struct TalkData gTalkData_3_2[18] = {
 	{
 		.roomId = 0x10,
 		.personId = PERSON_ANIM_LOTTA_HART,
-		.unk2 = 0xFF,
+		.filler2 = 0xFF,
 		.enableFlag = 0x1,
 		.iconId = { 0x63, 0x54, 0x64, 0xFF },
 		.talkFlagId = { 0xA9, 0xAA, 0xAB, 0xFF },
@@ -413,7 +413,7 @@ const struct TalkData gTalkData_3_2[18] = {
 	{
 		.roomId = 0x11,
 		.personId = PERSON_ANIM_LARRY_BUTZ,
-		.unk2 = 0xFF,
+		.filler2 = 0xFF,
 		.enableFlag = 0x1,
 		.iconId = { 0x50, 0x65, 0xFF, 0xFF },
 		.talkFlagId = { 0xAC, 0xAD, 0xFF, 0xFF },
@@ -422,7 +422,7 @@ const struct TalkData gTalkData_3_2[18] = {
 	{
 		.roomId = 0x11,
 		.personId = PERSON_ANIM_LARRY_BUTZ,
-		.unk2 = 0xFF,
+		.filler2 = 0xFF,
 		.enableFlag = 0x0,
 		.iconId = { 0x50, 0x65, 0x66, 0xFF },
 		.talkFlagId = { 0xAC, 0xAD, 0xAE, 0xFF },
@@ -431,7 +431,7 @@ const struct TalkData gTalkData_3_2[18] = {
 	{
 		.roomId = 0x12,
 		.personId = PERSON_ANIM_GUMSHOE,
-		.unk2 = 0xFF,
+		.filler2 = 0xFF,
 		.enableFlag = 0x1,
 		.iconId = { 0x5D, 0x67, 0x68, 0xFF },
 		.talkFlagId = { 0xAF, 0xB0, 0xB1, 0xFF },
@@ -440,7 +440,7 @@ const struct TalkData gTalkData_3_2[18] = {
 	{
 		.roomId = 0x12,
 		.personId = PERSON_ANIM_LOTTA_HART,
-		.unk2 = 0xFF,
+		.filler2 = 0xFF,
 		.enableFlag = 0x0,
 		.iconId = { 0x4A, 0x54, 0xFF, 0xFF },
 		.talkFlagId = { 0xB3, 0xB2, 0xFF, 0xFF },
@@ -449,7 +449,7 @@ const struct TalkData gTalkData_3_2[18] = {
 	{
 		.roomId = 0x12,
 		.personId = PERSON_ANIM_LOTTA_HART,
-		.unk2 = 0xFF,
+		.filler2 = 0xFF,
 		.enableFlag = 0x0,
 		.iconId = { 0x4A, 0x69, 0xFF, 0xFF },
 		.talkFlagId = { 0xB3, 0xB4, 0xFF, 0xFF },
@@ -458,7 +458,7 @@ const struct TalkData gTalkData_3_2[18] = {
 	{
 		.roomId = 0x14,
 		.personId = PERSON_ANIM_YANNI_YOGI,
-		.unk2 = 0xFF,
+		.filler2 = 0xFF,
 		.enableFlag = 0x1,
 		.iconId = { 0x6D, 0x6E, 0xFF, 0xFF },
 		.talkFlagId = { 0xB5, 0xB6, 0xFF, 0xFF },
@@ -467,7 +467,7 @@ const struct TalkData gTalkData_3_2[18] = {
 	{
 		.roomId = 0x14,
 		.personId = PERSON_ANIM_YANNI_YOGI,
-		.unk2 = 0xFF,
+		.filler2 = 0xFF,
 		.enableFlag = 0x0,
 		.iconId = { 0x6D, 0x6E, 0x6F, 0xFF },
 		.talkFlagId = { 0xB5, 0xB6, 0xB7, 0xFF },
@@ -476,7 +476,7 @@ const struct TalkData gTalkData_3_2[18] = {
 	{
 		.roomId = 0x14,
 		.personId = PERSON_ANIM_YANNI_YOGI,
-		.unk2 = 0xFF,
+		.filler2 = 0xFF,
 		.enableFlag = 0x0,
 		.iconId = { 0x6D, 0x6E, 0x70, 0xFF },
 		.talkFlagId = { 0xB5, 0xB6, 0xB8, 0xFF },
@@ -485,7 +485,7 @@ const struct TalkData gTalkData_3_2[18] = {
 	{
 		.roomId = 0x14,
 		.personId = PERSON_ANIM_YANNI_YOGI,
-		.unk2 = 0xFF,
+		.filler2 = 0xFF,
 		.enableFlag = 0x0,
 		.iconId = { 0x6D, 0x6E, 0x6F, 0x70 },
 		.talkFlagId = { 0xB5, 0xB6, 0xB7, 0xB8 },
@@ -494,7 +494,7 @@ const struct TalkData gTalkData_3_2[18] = {
 	{
 		.roomId = 0xE,
 		.personId = PERSON_ANIM_GUMSHOE,
-		.unk2 = 0xFF,
+		.filler2 = 0xFF,
 		.enableFlag = 0x1,
 		.iconId = { 0x6A, 0x54, 0xFF, 0xFF },
 		.talkFlagId = { 0xB9, 0xBA, 0xFF, 0xFF },
@@ -503,7 +503,7 @@ const struct TalkData gTalkData_3_2[18] = {
 	{
 		.roomId = 0xE,
 		.personId = PERSON_ANIM_GUMSHOE,
-		.unk2 = 0xFF,
+		.filler2 = 0xFF,
 		.enableFlag = 0x0,
 		.iconId = { 0x6A, 0x6B, 0xFF, 0xFF },
 		.talkFlagId = { 0xB9, 0xBB, 0xFF, 0xFF },
@@ -512,7 +512,7 @@ const struct TalkData gTalkData_3_2[18] = {
 	{
 		.roomId = 0xE,
 		.personId = PERSON_ANIM_GUMSHOE,
-		.unk2 = 0xFF,
+		.filler2 = 0xFF,
 		.enableFlag = 0x0,
 		.iconId = { 0x6C, 0x4D, 0xFF, 0xFF },
 		.talkFlagId = { 0xBC, 0xBD, 0xFF, 0xFF },
@@ -521,7 +521,7 @@ const struct TalkData gTalkData_3_2[18] = {
 	{
 		.roomId = 0xF,
 		.personId = PERSON_ANIM_MAYA,
-		.unk2 = 0xFF,
+		.filler2 = 0xFF,
 		.enableFlag = 0x1,
 		.iconId = { 0x71, 0x72, 0x73, 0xFF },
 		.talkFlagId = { 0xBE, 0xBF, 0xC0, 0xFF },
@@ -530,7 +530,7 @@ const struct TalkData gTalkData_3_2[18] = {
 	{
 		.roomId = 0xFF,
 		.personId = 0xFF,
-		.unk2 = 0xFF,
+		.filler2 = 0xFF,
 		.enableFlag = 0xFF,
 		.iconId = { 0xFF, 0xFF, 0xFF, 0xFF },
 		.talkFlagId = { 0xFF, 0xFF, 0xFF, 0xFF },

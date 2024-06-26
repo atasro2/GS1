@@ -648,261 +648,196 @@ gGfxEvidenceMissileAngry_description:
 
 	.global gGfxEvidenceProfilePictures
 gGfxEvidenceProfilePictures:
-
 	.incbin "graphics/evidence_profile_pictures/evidence/empty_plate.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/empty_plate.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/lottas_camera.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/lottas_camera.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/wiretap.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/wiretap.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/mayas_cellphone.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/mayas_cellphone.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/article_gourdy.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/article_gourdy.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/bullet.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/bullet.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/phoenix_badge.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/phoenix_badge.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/generic_letter.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/generic_letter.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/note_from_the_safe.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/note_from_the_safe.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/generic_photo.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/generic_photo.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/profiles/dick_gumshoe.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/profiles/dick_gumshoe.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/profiles/april_may.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/profiles/april_may.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/profiles/bellboy.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/profiles/bellboy.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/profiles/redd_white.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/profiles/redd_white.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/the_thinker.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/the_thinker.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/cindy_stones_passport.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/cindy_stones_passport.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/generic_autopsy_report.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/generic_autopsy_report.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/generic_affidavit.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/generic_affidavit.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/profiles/mia_fey.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/profiles/mia_fey.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/profiles/larry_butz.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/profiles/larry_butz.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/profiles/cindy_stone.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/profiles/cindy_stone.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/profiles/frank_sahwit.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/profiles/frank_sahwit.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/profiles/winston_payne.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/profiles/winston_payne.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/profiles/maya_fey.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/profiles/maya_fey.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/maya_memo.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/maya_memo.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/steel_samurai_spear.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/steel_samurai_spear.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/glass_shards.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/glass_shards.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/generic_newspaper_clipping.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/generic_newspaper_clipping.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/profiles/misty_fey.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/profiles/misty_fey.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/profiles/marvin_grossberg.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/profiles/marvin_grossberg.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/profiles/miles_edgeworth.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/profiles/miles_edgeworth.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/steel_samurai_cards.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/steel_samurai_cards.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/steel_samurai_ultra_rare_card.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/steel_samurai_ultra_rare_card.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/empty_bottle.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/empty_bottle.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/steel_samurai_script.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/steel_samurai_script.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/codys_digital_camera.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/codys_digital_camera.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/plate_with_steak_bones.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/plate_with_steak_bones.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/global_studios_card_key.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/global_studios_card_key.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/key_to_cottage.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/key_to_cottage.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/mr_monkey.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/mr_monkey.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/codys_steel_samurai_scrapbook.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/codys_steel_samurai_scrapbook.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/global_studios_van.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/global_studios_van.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/profiles/cody_hackins.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/profiles/cody_hackins.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/profiles/will_powers.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/profiles/will_powers.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/profiles/dee_vasquez.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/profiles/dee_vasquez.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/profiles/penny_nichols.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/profiles/penny_nichols.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/profiles/sal_manella.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/profiles/sal_manella.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/profiles/jack_hammer.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/profiles/jack_hammer.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/profiles/wendy_oldbag.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/profiles/wendy_oldbag.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/firecrackers.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/firecrackers.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/pistol.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/pistol.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/air_tube.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/air_tube.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/metal_detector.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/metal_detector.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/missile.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/missile.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/missile_angry.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/missile_angry.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/dl-6_bullet.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/dl-6_bullet.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/fishing_pole.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/fishing_pole.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/polly.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/polly.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/profiles/lotta_hart.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/profiles/lotta_hart.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/profiles/manfred_von_karma.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/profiles/manfred_von_karma.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/profiles/gregory_edgeworth.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/profiles/gregory_edgeworth.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/profiles/robert_hammond.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/profiles/robert_hammond.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/profiles/old_man.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/profiles/old_man.4bpp"
 
 	.incbin "graphics/evidence_profile_pictures/evidence/yannis_safe.gbapal"
-
 	.incbin "graphics/evidence_profile_pictures/evidence/yannis_safe.4bpp"
 
 @ END EVIDENCE AND PROFILE PICTURES

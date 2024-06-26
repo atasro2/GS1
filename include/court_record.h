@@ -14,7 +14,7 @@ struct CourtRecord
     /* +0x08 */ u8 recordArrowFrame; // unity AA4: arrow_type
     /* +0x09 */ u8 recordArrowCounter; // unity AA4: arrow_timer
     /* +0x0A */ bool8 windowIsSaveScreen; // unity AA4: win_flag
-    /* +0x0B */ u8 unkB; // unity AA4: win_type // unused
+    /* +0x0B */ u8 fillerB; // unity AA4: win_type // unused
     /* +0x0C */ u8 flags; // unity AA4: page_status
     /* +0x0D */ u8 selectedItem; // unity AA4: page_now
     /* +0x0E */ u8 displayItemCount; // unity AA4: page_now_max

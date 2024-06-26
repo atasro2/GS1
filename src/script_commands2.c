@@ -30,7 +30,7 @@ struct SpotSelectData
     /* +0x20 */ u16 firstAreaSection;
     /* +0x22 */ u16 secondAreaSection;
     /* +0x24 */ u16 defaultSection;
-    /* +0x26 */ u16 unk26; // Unused, called a dummy in unity
+    /* +0x26 */ u16 filler26; // Unused, called a dummy in unity
     /* +0x28 */ u8 left;
     /* +0x29 */ u8 top;
     /* +0x2A */ u8 right;
@@ -179,7 +179,7 @@ static const struct SpotSelectData gSpotSelectData[] = {
         .firstAreaSection = 0xA3,
         .secondAreaSection = 0xA2,
         .defaultSection = 0xA1,
-        .unk26 = 0,
+        .filler26 = 0,
         .left = 26,
         .top = 4,
         .right = 188,
@@ -223,7 +223,7 @@ static const struct SpotSelectData gSpotSelectData[] = {
         .firstAreaSection = 0xE9,
         .secondAreaSection = 0xE8,
         .defaultSection = 0xE7,
-        .unk26 = 0,
+        .filler26 = 0,
         .left = 2,
         .top = 2,
         .right = 222,
@@ -267,7 +267,7 @@ static const struct SpotSelectData gSpotSelectData[] = {
         .firstAreaSection = 0xEC,
         .secondAreaSection = 0xEB,
         .defaultSection = 0xEB,
-        .unk26 = 0,
+        .filler26 = 0,
         .left = 2,
         .top = 2,
         .right = 222,
@@ -311,7 +311,7 @@ static const struct SpotSelectData gSpotSelectData[] = {
         .firstAreaSection = 0xEF,
         .secondAreaSection = 0xEC,
         .defaultSection = 0xED,
-        .unk26 = 0,
+        .filler26 = 0,
         .left = 2,
         .top = 2,
         .right = 222,
@@ -355,7 +355,7 @@ static const struct SpotSelectData gSpotSelectData[] = {
         .firstAreaSection = 0xDD,
         .secondAreaSection = 0xDB,
         .defaultSection = 0xDC,
-        .unk26 = 0,
+        .filler26 = 0,
         .left = 2,
         .top = 2,
         .right = 222,
@@ -399,7 +399,7 @@ static const struct SpotSelectData gSpotSelectData[] = {
         .firstAreaSection = 0xD8,
         .secondAreaSection = 0xD6,
         .defaultSection = 0xD7,
-        .unk26 = 0,
+        .filler26 = 0,
         .left = 2,
         .top = 2,
         .right = 222,
@@ -443,7 +443,7 @@ static const struct SpotSelectData gSpotSelectData[] = {
         .firstAreaSection = 0xC4,
         .secondAreaSection = 0xC2,
         .defaultSection = 0xC3,
-        .unk26 = 0,
+        .filler26 = 0,
         .left = 2,
         .top = 2,
         .right = 222,

@@ -8,7 +8,7 @@ struct TalkData
 {
     /* +0x00 */ u8 roomId;
     /* +0x01 */ u8 personId;
-    /* +0x02 */ u8 unk2; // called dm in unity? probably means dummy, unused
+    /* +0x02 */ u8 filler2; // called dm in unity? probably means dummy, unused
     /* +0x03 */ u8 enableFlag; // en- or disables this specific set of talk data, allows for multiple sets for one character in one room
     /* +0x04 */ u8 iconId[0x4];
     /* +0x08 */ u8 talkFlagId[0x4];

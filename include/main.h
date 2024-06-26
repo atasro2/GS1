@@ -47,14 +47,14 @@ struct Main
     /* +0x028 */ u16 currentBG; // BG related code not in GlobalWork struct, this might be another struct on its own but i'm not sure
     /* +0x02A */ s16 previousBG; // probably wrong
     /* +0x02C */ s8 currentBgStripe; // maybe Bg256_rno_0?
-    /* +0x02D */ u8 unk2D; // unused field maybe Bg256_SP_Flag?
+    /* +0x02D */ u8 filler2D; // unused field maybe Bg256_SP_Flag? is disableDetentionCenterMaskInDetentionCenter in pwaa2
     /* +0x02E */ bool8 isBGScrolling; // unity AA4: Bg256_scroll_flag
     /* +0x02F */ u8 Bg256_stop_line; // unity AA4: Bg256_stop_line
     /* +0x030 */ s16 Bg256_scroll_x; // unity AA4: Bg256_scroll_x
     /* +0x032 */ s16 Bg256_scroll_y; // unity AA4: Bg256_scroll_y
     /* +0x034 */ s16 Bg256_pos_x; // unity AA4: Bg256_pos_x
     /* +0x036 */ s16 Bg256_pos_y; // unity AA4: Bg256_pos_y
-    /* +0x038 */ u16 unk38; // unity AA4: Bg256_add? unused but is background related 100%
+    /* +0x038 */ u16 unused38; // unity AA4: Bg256_add? unused but is background related 100%
     /* +0x03A */ s16 Bg256_dir; // unity AA4: Bg256_dir
     /* +0x03C */ s8 horizontolBGScrollSpeed; // unity AA4: Bg256_scroll_speed_x
     /* +0x03D */ s8 verticalBGScrollSpeed; // unity AA4: Bg256_scroll_speed_y
@@ -80,7 +80,7 @@ struct Main
     /* +0x088 */ u8 damageFrame; // unity: Rest_type
     /* +0x089 */ u8 damageFrameTimer; // unity: Rest_timer
     /* +0x08A */ u8 previousHealth; // unity: rest_old
-    /* +0x08B */ u8 unk8B; // unused
+    /* +0x08B */ u8 filler8B; // unused
     /* +0x08C */ u8 currentRoomId; // unity: Room? uint in unity
     /* +0x08D */ u8 scenarioIdx; // unity: scenario, actually the script you're running
     /* +0x08E */ u8 caseEnabledFlags; // unity: Scenario_enable, whetever a case is enabled or not, unity names suck
@@ -92,7 +92,7 @@ struct Main
     /* +0x0B8 */ u32 talkEndFlags[8]; // unity: talk_end_flag
     /* +0x0D8 */ u8 roomData[24][8]; // unity: Map_data //TODO: first size might be wrong
     /* +0x198 */ u32 soundFlags;
-    /* +0x19C */ u32 unk19C; // bit 2 is set, never used
+    /* +0x19C */ u32 unused19C; // bit 2 is set, never used
 };
 
 struct IORegisters

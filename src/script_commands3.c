@@ -140,7 +140,7 @@ bool32 Command46(struct ScriptContext * scriptCtx)
         }
     }
     r6 += 32 + 20*30*2;
-    DmaCopy16(3, r6, eUnknown_02031FC0, 30*20*TILE_SIZE_4BPP);
+    DmaCopy16(3, r6, eVRAMScratchpadBuffer, 30*20*TILE_SIZE_4BPP);
     gIORegisters.lcd_dispcnt |= DISPCNT_BG2_ON;
     gIORegisters.lcd_bg2cnt = BGCNT_PRIORITY(2) | BGCNT_CHARBASE(2) | BGCNT_SCREENBASE(30) | BGCNT_16COLOR | BGCNT_WRAP;
     scriptCtx->flags |= 0x40;

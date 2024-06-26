@@ -1125,7 +1125,7 @@ void CourtRecordDetailSubMenu(struct Main * main, struct CourtRecord * courtReco
             main->Bg256_scroll_y = gSaveDataBuffer.main.Bg256_scroll_y;
             main->Bg256_pos_x = gSaveDataBuffer.main.Bg256_pos_x;
             main->Bg256_pos_y = gSaveDataBuffer.main.Bg256_pos_y;
-            main->unk38 = gSaveDataBuffer.main.unk38;
+            main->unused38 = gSaveDataBuffer.main.unused38;
             main->Bg256_dir = gSaveDataBuffer.main.Bg256_dir;
             main->horizontolBGScrollSpeed = gSaveDataBuffer.main.horizontolBGScrollSpeed;
             main->verticalBGScrollSpeed = gSaveDataBuffer.main.verticalBGScrollSpeed;
@@ -1473,8 +1473,8 @@ void LoadEvidenceGraphics(u32 evidenceId)
     src = gGfxEvidenceProfilePictures + offset + 0x20;
     DmaCopy16(3, src, OBJ_VRAM0+0x5000, TILE_SIZE_4BPP * 64);
     src = gEvidenceProfileData[evidenceId].descriptionTiles;
-    LZ77UnCompWram(src, eUnknown_0200AFC0);
-    DmaCopy16(3, eUnknown_0200AFC0, (void *)OBJ_VRAM0+0x3C00, TILE_SIZE_4BPP * 160);
+    LZ77UnCompWram(src, eGeneralScratchpadBuffer);
+    DmaCopy16(3, eGeneralScratchpadBuffer, (void *)OBJ_VRAM0+0x3C00, TILE_SIZE_4BPP * 160);
 }
 
 void UpdateEvidenceSprites(struct CourtRecord * courtRecord)
@@ -1658,7 +1658,7 @@ s32 FindFirstEmptySlotInCourtRecord(u32 isProfile)
 
 void SortCourtRecordAndSyncListCount(struct CourtRecord * courtRecord)
 {
-    u8 * ewram = eUnknown_0200AFC0;
+    u8 * ewram = eGeneralScratchpadBuffer;
     u32 i;
 
     DmaCopy16(3, courtRecord->profileList, ewram, 0x20);

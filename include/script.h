@@ -22,7 +22,7 @@ struct ScriptContext
     /* +0x12 */ u8 fullscreenTextX;
     /* +0x13 */ u8 textSkip;
     /* +0x14 */ u8 paragraphSkipDelayCounter; // unity AA4: speed_timer?
-    /* +0x15 */ u8 unk15; // unity AA4: speed_time? // set once never used
+    /* +0x15 */ u8 unused15; // unity AA4: speed_time? // set once never used
     /* +0x16 */ u8 soundCueSkip; // unity AA4: moji_cnt
     /* +0x17 */ u8 currentSoundCue; // unity AA4: moji_se
     /* +0x18 */ s16 textXOffset; // unity AA4: plate_pos_x
@@ -39,9 +39,9 @@ struct ScriptContext
     /* +0x2A */ u16 fullscreenTextYOffset; // unity: AA4: sel_pos_y
     /* +0x2C */ u16 holdItSection; // unity AA4: tukkomi_no
     /* +0x2E */ u8 holdItFlag; // unity AA4: tukkomi_flag
-    /* +0x2F */ u8 unk2F; // unity AA4: moji? // unused
-    /* +0x30 */ u8 unk30; // unity AA4: houtei_page? // unused
-    /* +0x31 */ u8 unk31; // unity AA4: plate_set_flag? // unused
+    /* +0x2F */ u8 filler2F; // unity AA4: moji? // unused
+    /* +0x30 */ u8 filler30; // unity AA4: houtei_page? // unused
+    /* +0x31 */ u8 filler31; // unity AA4: plate_set_flag? // unused
     /* +0x32 */ u8 personAnimPauseCounter; // unity: rt_wait_timer   
     /* +0x33 */ bool8 slamDesk; // unity: desk_attack
     /* +0x34 */ u8 textboxNameId; // unity: speaker_id
@@ -50,7 +50,7 @@ struct ScriptContext
     /* +0x37 */ u8 textboxDownArrowDelayCounter; // unity AA4: enter_type_timer
     /* +0x38 */ u8 textboxState; // unity: mess_win_rno
     /* +0x39 */ u8 fullscreenCursorPos; // unity AA4: cursol
-    /* +0x3A */ u8 unk3A; // unity AA4: add_y, used but does nothing
+    /* +0x3A */ u8 unused3A; // unity AA4: add_y, used but has no effect where its used
     /* +0x3B */ u8 textboxYPos; // unity AA4: frame_y
     /* +0x3C */ u8 * mapMarkerVramPtr; // unity AA4: Expl_now_vram_addr?
 };

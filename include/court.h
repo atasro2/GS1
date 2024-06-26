@@ -12,7 +12,7 @@ struct TestimonyStruct
     /* +0x03 */ u8 presentPromptY; // unity AA4: pos_y_tukitukeru
     /* +0x04 */ u16 healthPointX; // unity AA4: pos_x_rest
     /* +0x06 */ u8 testimonyAnimMoveAmount; // unity AA4: add
-    /* +0x07 */ u8 unk7; // unity AA4: dm00 filler dummy
+    /* +0x07 */ u8 filler7; // unity AA4: dm00 filler dummy
 };
 
 extern struct TestimonyStruct gTestimony;

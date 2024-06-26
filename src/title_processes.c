@@ -95,7 +95,7 @@ void TitleScreenProcess(struct Main *main)
         gInvestigation.pointerFrameCounter = 0;
         gInvestigation.pointerFrame = 2;
         main->selectedButton = 0;
-        main->unk19C |= 4;
+        main->unused19C |= 4;
         main->tilemapUpdateBits = 9;
         StartHardwareBlend(1, 1, 1, 0x1F);
         SET_PROCESS_PTR(TITLE_SCREEN_PROCESS, 2, 0, 0, main);

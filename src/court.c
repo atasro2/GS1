@@ -765,11 +765,11 @@ void VerdictProcess(struct Main * main)
     }
 }
 
-void UpdateQuestioningMenuSprites(struct Main * main, struct TestimonyStruct * testimony, u32 unk2) // questioning_menu_disp
+void UpdateQuestioningMenuSprites(struct Main * main, struct TestimonyStruct * testimony, u32 arg2) // questioning_menu_disp
 {
     u32 i;
     struct OamAttrs * oam;
-    if(gScriptContext.holdItSection == 0 || unk2 == 0)
+    if(gScriptContext.holdItSection == 0 || arg2 == 0)
     {
         oam = &gOamObjects[OAM_IDX_BUTTON_PROMPTS];
         oam->attr0 = SPRITE_ATTR0_CLEAR;
